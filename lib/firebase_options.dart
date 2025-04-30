@@ -41,14 +41,14 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-  apiKey: 'AIzaSyB2X6zDljkIMRtwKCj-S56Z_tqYPFl_Izg',
-  appId: '1:39408025622:web:2cf5e82af32432baaff537',
-  messagingSenderId: '39408025622',
-  projectId: 'inventoriumapp',
-  authDomain: 'inventoriumapp.firebaseapp.com',
-  storageBucket: 'inventoriumapp.firebasestorage.app',
-  measurementId: 'G-N90KEH79HK',
-);
+    apiKey: 'AIzaSyB2X6zDljkIMRtwKCj-S56Z_tqYPFl_Izg',
+    appId: '1:39408025622:web:2cf5e82af32432baaff537',
+    messagingSenderId: '39408025622',
+    projectId: 'inventoriumapp',
+    authDomain: 'inventoriumapp.firebaseapp.com',
+    storageBucket: 'inventoriumapp.firebasestorage.app',
+    measurementId: 'G-N90KEH79HK',
+  );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBGAFFLvrSnfG4QxhRViRAsEf8ZMvam3rw',
@@ -85,5 +85,4 @@ class DefaultFirebaseOptions {
     storageBucket: 'inventoriumapp.firebasestorage.app',
     measurementId: 'G-MZ6D2227FM',
   );
-
 }
